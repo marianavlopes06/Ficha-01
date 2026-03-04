@@ -1,0 +1,7 @@
+/* * é um seletor universal, ou seja, aplica-se a todos os elementos HTML da página */
+* {
+ margin: 0; /* Remove todas as margens padrão */
+ padding: 0; /* Remove os preenchimentos internos padrão */
+ box-sizing: border-box; /* Garante que a largura e altura dos elementos incluam a borda */
+ font-family: Arial, Helvetica, sans-serif; /* Define a fonte do texto da página */
+}
