@@ -24,3 +24,17 @@
  font-size: 1.5em; /* Define o tamanho do texto */
  color: #dddddd; /* Cor do texto em cinza claro */
 } 
+/* Estilos para os links centrais da navegação */
+.container-navegacao {
+ text-align: center; /* Centraliza os links */
+ padding: 20px; /* Adiciona espaçamento interno */
+}
+.container-navegacao a {
+ font-size: 1.5em; /* Aumenta o tamanho da fonte dos links */
+ margin: 0px 50px; /* Adiciona espaçamento horizontal entre os links */
+ text-decoration: none; /* Remove o sublinhado */
+ color: #dddddd; /* Define a cor dos links */
+}
+.container-navegacao a:hover {
+ color: #ffffff; /* Muda a cor ao passar o mouse */
+} 
