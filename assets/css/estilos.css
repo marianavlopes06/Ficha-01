@@ -38,3 +38,16 @@
 .container-navegacao a:hover {
  color: #ffffff; /* Muda a cor ao passar o mouse */
 } 
+/* Estilos para o botão da Área Cliente */
+.nav-cliente a {
+ color: #dddddd; /* Cor do texto */
+ text-decoration: none; /* Remove sublinhado */
+ font-size: 1.5em; /* Tamanho da fonte */
+ padding: 10px; /* Espaçamento interno */
+ border-radius: 5px; /* Bordas arredondadas */
+ transition: background 0.3s; /* Efeito suave na transição */
+}
+/* Efeito ao passar o mouse */
+.nav-cliente a:hover {
+ background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+} 
