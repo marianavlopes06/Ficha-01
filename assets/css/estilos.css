@@ -51,3 +51,27 @@
 .nav-cliente a:hover {
  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
 } 
+/* Estilos para o Rodapé */
+.footer-container {
+ display: flex; /* Ativa o layout flexível */
+ background-color: #343a40; /* Cor de fundo escura */
+ color: white; /* Cor do texto */
+ padding: 40px 20px; /* Espaçamento interno */
+ flex-wrap: wrap; /* Permite que os itens fiquem responsivos */
+}
+.footer-section {
+ flex: 1; /* Faz com que as seções tenham tamanhos iguais */
+ min-width: 250px; /* Garante que cada seção tenha um tamanho mínimo */
+ padding: 10px; /* Espaçamento interno */
+ text-align: center; /* Centraliza o texto */
+}
+.footer-section strong {
+ font-size: 1.2rem; /* Define o tamanho da fonte dos títulos */
+ display: block; /* Faz com que ocupe toda a largura */
+ margin-bottom: 10px; /* Adiciona um espaço abaixo do título */
+ color: #f8f9fa; /* Cor do texto */
+}
+.footer-section p {
+ font-size: 1rem; /* Define o tamanho da fonte dos parágrafos */
+ color: #d6d6d6; /* Cor do texto mais suave */
+} 
